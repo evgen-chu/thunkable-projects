@@ -1,0 +1,54 @@
+.project-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FDFDFD;
+    height: 70px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.project-name-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.project-name {
+    opacity: 70%;
+    font-weight: bold;
+    width: 70%;
+}
+
+.project-img {
+    margin-left: 20px;
+}
+
+.project-input {
+    margin-left: 5px;
+    width: 50%;
+}
+
+.project-edit-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.edit-delete-btn {
+    border: none;
+    marginRight: 20px;
+}
+
+.none-border {
+    border: none;
+}
+
+.project-date {
+    opacity: 50%;
+}
