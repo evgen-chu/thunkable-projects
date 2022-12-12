@@ -34,11 +34,11 @@ export const Project = (props: ProjectPropsType) => {
                     <div key={project.id} className="project-name">{project.name}</div>
                 )}
             </div>
-            {editId === project.id ? <Button className="edit-delete-btn" style={{}} onClick={() => editProject(project, inputValue)}>Edit Project</Button> :
+            {editId === project.id ? <Button className="save-delete-btn" style={{}} onClick={() => editProject(project, inputValue)}>Save Project</Button> :
                 <div className="project-edit-container">
-                    <Button className="none-border" onClick={() => { setEdit(project.id)}} ><Image src={EditIcon} /></Button>
+                    <Button className="none-border" onClick={() => { setEdit(project.id); setInputValue(project.name)}} ><Image src={EditIcon} /></Button>
                     <Typography className="project-date">{project.date}</Typography>
-                    <Button className="edit-delete-btn" onClick={() => confirmDeleting(project)}><Image src={DeleteIcon}/></Button>
+                    <Button className="save-delete-btn" onClick={() => confirmDeleting(project)}><Image src={DeleteIcon}/></Button>
                 </div>
             }
         </div>

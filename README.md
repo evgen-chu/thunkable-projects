@@ -26,7 +26,7 @@ This app was built with using ReactJS, TypeScript, Ant Design library.
 ## How it works 
 
 1. User creates new project by clicking on plus button.
-2. User should click pencil icon, after that user can add/edit the name of the project and click on "Edit Project" button to save it.
+2. User should click pencil icon, after that user can add/edit the name of the project and click on "Save Project" button to save it.
 3. User can delete the project by clicking on delete button, it will trigger confirmation modal, clicking Okay button on this modal will delete the project.
 
 ## Future work
